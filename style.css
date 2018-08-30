@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background: burlywood;
+}
+#first{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 40%;
+    height: 80%;
+    background: white; 
+    box-shadow: 0 0 40px black; 
+}
+#top{
+    width: 100%;
+    height: 20%;
+    background: rgba(2, 46, 5, 0.767);
+}
+#upper{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    color: white;
+}
+h2{
+    color: white;
+}
+#icon{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+#lower{
+    font-size: 15px;
+
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 50%;
+    color: white;
+}
+ul{
+    display: flex;
+    color: white;
+    list-style-type: none;
+}
+#cam{
+
+    color:grey;
+}
+#cam:hover{
+    cursor: pointer;
+    border-bottom: 4px solid white;
+}
+
+.swing:hover{
+    cursor: pointer;
+    border-bottom: 4px solid white;
+    transform: scale(1.2);
+}
+#bottom{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background: white;
+
+}
+.divide{
+    
+    display: flex;
+    
+    color: black;
+    padding-left: 20px;
+    padding-top: 14px;
+    width: 100%;
+   min-height: 25%;
+    background: white;
+    border-bottom: 1px solid gray;
+    
+}
+.divide:hover{
+    cursor: pointer;
+}
+.crc{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: yellow;
+
+}
+#aman{
+    background-image: url('aman.jpg');
+    background-size: cover;
+}
+#himanshee{
+    background-image: url('himanshee.jpg');
+    background-size: cover;
+
+}
+#aakash{
+    background-image: url('aakash.jpg');
+    background-size: cover;
+
+}
+#vandu{
+    background-image: url('vandu.jpg');
+    background-size: cover;
+}
+h3{
+    width: 70%;
+    display: block;
+    line-height: 55px;
+    margin-left: 10%;    
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#one:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#h3{
+    position: absolute;
+    bottom: 30px;
+    left: 80%;
+    transform: translate(-50%,0);
+    font-weight: 100;
+}
+
+#red{
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+}
